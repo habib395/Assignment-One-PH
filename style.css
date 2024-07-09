@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Azeret Mono";
 }
 .hero-section{
     width: 1366px;
@@ -9,6 +10,7 @@
     background-image: url(assets/Hero-bg.png);
     border-top: 1px dashed black;
     border-bottom: 1px dashed black;
+    margin-bottom: 70px;
     /* border: 1px solid red; */
 }
 .hero-section-content{
@@ -53,3 +55,80 @@
     padding: 18px 20px 18px 20px;
     background: rgb(13, 19, 33);
 }
+/* web development section start */
+.web-development-section{
+    width: 1080px;
+    height: 1320px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 80px 97px 80px 97px;
+    background-color: rgba(13, 19, 33, 0.02);
+}
+.web-development-section-content{
+    width: 805px;
+    height: 108px;
+    margin: 0 auto;
+    margin-bottom: 46px;
+}
+.web-development-section-content h3{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 30px;
+font-weight: 800;
+text-align: center;
+margin-bottom: 24px;
+}
+.web-development-section-content p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 12px;
+    text-align: center;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.pic-section-one{
+    width: 894px;
+    height: 318px;
+    margin: 0 auto;
+    padding: 46px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+.pic-section-one-text {
+    width: 451px;
+    height: 208px;
+}
+.pic-section-one-only-text{
+    width: 451px;
+    height: 132px;
+    margin-top: 28px;
+}
+.pic-section-one-only-text h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.pic-section-one-only-text p{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 13px;
+font-weight: 400;
+}
+.pic-section-one-only-button button{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 600;
+padding: 10px 16px 10px 16px;
+background: rgb(255, 255, 255);
+border: 2px solid rgba(13, 19, 33, 0.3);
+}
+.pic-section-one-image img{
+    width: 245px;
+    height: 205px;
+}
+/* web development section end */
