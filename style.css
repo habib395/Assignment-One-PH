@@ -56,15 +56,8 @@ html{
     border-radius: 6px;
     padding: 18px;
     font-size: 16px;
-    background: rgb(13, 19, 33);
-}
-.hero-section-content-text button a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    border-radius: 6px;
-    padding: 18px 20px 18px 20px;
-    background: rgb(13, 19, 33);
     cursor: pointer;
+    background: rgb(13, 19, 33);
 }
 /* web development section start */
 .web-development-section{
@@ -156,6 +149,13 @@ border: 2px solid rgba(13, 19, 33, 0.3);
     border-radius: 16px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
     margin-bottom: 32px;
+}
+.exception .pic-section-one-only-text{
+    width: 500px;
+    height: 130px;
+}
+.exception .pic-section-one-only-text h3{
+    font-size: 20px;
 }
 /* web development section end */
 /* inspiration section start */
