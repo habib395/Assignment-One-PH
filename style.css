@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: "Azeret Mono";
 }
+html{
+    scroll-behavior: smooth;
+}
 .hero-section{
     width: 1366px;
     height: 618px;
@@ -51,8 +54,17 @@
 .hero-section-content-text button{
     color: rgb(255, 255, 255);
     border-radius: 6px;
+    padding: 18px;
+    font-size: 16px;
+    background: rgb(13, 19, 33);
+}
+.hero-section-content-text button a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border-radius: 6px;
     padding: 18px 20px 18px 20px;
     background: rgb(13, 19, 33);
+    cursor: pointer;
 }
 /* web development section start */
 .web-development-section{
