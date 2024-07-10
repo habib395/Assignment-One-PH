@@ -152,6 +152,7 @@ border: 2px solid rgba(13, 19, 33, 0.3);
     width: 1078px;
     height: 733px;
     margin: 0 auto;
+    margin-bottom: 150px;
 }
 .inspiration-section-text{
     width: 805px;
@@ -185,3 +186,101 @@ border: 2px solid rgba(13, 19, 33, 0.3);
     border-radius: 15px;
 }
 /* inspiration section end */
+/* current target section start */
+.current-target{
+    width: 1078px;
+    height: 436px;
+    margin: 0 auto;
+}
+.current-target-text{
+    width: 805px;
+    height: 106px;
+    margin: 0 auto;
+}
+.current-target-text h3{
+    width: 805px;
+    height: 35px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 26px;
+}
+.current-target-text p{
+    width: 805px;
+    height: 49px;
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: 400;
+}
+.current-target-cards{
+    margin-top: 48px;
+    width: 1078px;
+    height: 282px;
+    display: flex;
+    gap: 24px;
+}
+.current-target-cards-card1{
+    width: 344px;
+    height: 282px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.current-target-cards-card1 img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 24px;
+}
+.current-target-cards-card1 h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+
+}
+.current-target-cards-card1 p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+.current-target-cards-card1 h5{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+.current-target-cards-card2{
+    width: 344px;
+    height: 282px;
+}
+.current-target-cards-card3{
+    width: 344px;
+    height: 282px;
+}
+/* card two */
+.card-two .current-target-cards-card1{
+    width: 344px;
+    height: 282px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+/* card three */
+.card three .current-target-cards-card1{
+    width: 344px;
+    height: 282px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+/* current target section end */
